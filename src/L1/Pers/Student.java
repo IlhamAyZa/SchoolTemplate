@@ -8,15 +8,30 @@ import Parameters.Sex;
 public class Student extends Person{
     
     Class_ class_;
-    Class_sector class_sector;
     int mark;
 
-    public Student(Class_ class_, Class_sector class_sector, int age, String name, float height, Sex sex, int mark) {
+    public Student(Class_ class_, int age, String name, float height, Sex sex, int mark) {
         super(age, name, height, sex);
         this.class_ = class_;
-        this.class_sector = class_sector;
         this.mark = mark;
     }
+
+    public Class_ getClass_() {
+        return class_;
+    }
+
+    public int getMark() {
+        return mark;
+    }
+
+    public void setClass_(Class_ class_) {
+        this.class_ = class_;
+    }
+
+    public void setMark(int mark) {
+        this.mark = mark;
+    }
+    
     
     
     

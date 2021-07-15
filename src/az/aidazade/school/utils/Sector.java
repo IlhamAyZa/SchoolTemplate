@@ -1,6 +1,6 @@
-package Parameters;
+package az.aidazade.school.utils;
 
-public enum Class_sector {
+public enum Sector {
     RUS,
     AZERBAYCAN,
     ENGLISH,
